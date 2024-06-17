@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: bonus-onboarding-lab-yournamehere
+  name: bonus-onboarding-lab-michaeljohnson
   title: Create a cookicutter datascience app
   description: A template to create a new cookiecutter datascience app
   tags:
     - workshop
-    - yournamehere
+    - michaeljohnson
 spec:
   owner: platformteam
   type: service
@@ -32,7 +32,7 @@ spec:
           title: Choose an Owner for the Service
           type: string
           ui:field: OwnerPicker
-          ui:options:`
+          ui:options:
             allowedKinds:
               - Group
         # This field is hidden but needed to authenticate the request to trigger the pipeline
